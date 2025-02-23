@@ -1,0 +1,370 @@
+
+/*google fonts - roboto*/
+/*font-family: "Roboto", serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*google fonts - italico*/
+/*font-family: "Rock Salt", serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
+
+.rock-salt-regular {
+    font-family: "Rock Salt", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  
+body{
+    margin: 0 16px;
+    background-color: white;
+    font-family: "Roboto", serif
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h1{
+    font-family: "Rock Salt", serif;
+ 
+   font-size: 60px;
+   text-align: center;
+   margin: 50px;
+   padding: 20px;
+   background-color:white;
+   
+
+    
+}
+h2{
+    color: dimgrey;
+    font-size: 34px;
+    text-align:right;
+    font-family: "Rock Salt";
+    font-weight: 400;
+    margin: 50px;
+   
+    
+    
+
+}
+
+h3{
+    margin: 50px;
+   color: black;
+    font-size: 54px;
+    text-align: center;
+    padding: 10px;
+    
+   
+  
+
+}
+ 
+    
+    
+.nav-li{
+    list-style: none;
+
+}
+
+.pinceles {
+    border: 1px solid black;
+    float: left; 
+    margin: 10px;
+    padding: 10px;
+    margin-left: 60px; 
+    width: 200px; 
+ 
+
+}
+
+.parrafo {
+    font-size: 44px;
+    text-align: center;
+    padding: 10px;
+  }
+
+.copyright {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    margin: 60px;
+  }
+
+
+.dali{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    
+}
+
+.manchas{
+    
+    background-image: url(../imagenesproyecto.html/manchas.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.firma-logo{
+    margin: 8px;
+    display:inline-block black; 
+    border: 1px solid #000000;
+    border-radius: 4px;
+    width: 70px;
+    height: 30px;
+}
+
+
+.misobras {
+    
+    margin: 40px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-only;
+    gap: 32px;
+    
+}
+
+.imagenes-obras{
+    
+    text-decoration: none;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+ 
+.imagen-contacto {
+    
+    width: 400px;
+    height: 500px;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: inline-end;
+  margin-inline-end: 30px;
+}
+
+
+h5{
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.imagenes-obras img{
+    width: 300px;
+    height: 450px;
+
+}
+
+
+
+.p-obras{
+    text-align: left;
+}
+
+.navbar{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px solid black;
+    background-color: lightgray;
+}
+
+.navbar :hover{
+    color: blue;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+
+
+.nav-link{
+    font-size: 24px;
+    text-decoration: none;
+    border: 2px solid black;
+    color:#000000
+    
+    
+    
+
+    
+}
+
+
+
+
+
+.firma-logo-footer {
+
+    margin: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    width: 70px;
+    height: 30px;
+    float: right;
+}
+
+
+.main-content {
+    margin-top: 80px;
+    display:flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 30px; 
+}
+
+
+.grid-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px; 
+}
+
+.btn-primary {
+    color: darkgray;
+
+    width: 150px;  /* Ancho del botón */
+    height: 70px; /* Alto del botón */
+    font-size: 12px; /* Tamaño de la fuente */
+    border-radius: 4px; 
+   
+    
+    
+   
+}
+
+.martin {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Ocupa toda la altura de la ventana */
+    margin: 100px;               /* Elimina márgenes por defecto */
+    padding: 50px;
+    border: 1px solid black; /* Añade un borde de 1px */
+    max-width: 100%;          /* Asegura que la imagen no se desborde */
+    height: auto;             /* Mantiene la proporción de la imagen */
+}
+   
+footer {
+    
+    text-align: right;
+    font-size: 10px;
+    padding: 20px;
+    
+}
+
+  
+  
+
+
+    
+    
+    
+
+
+@media (max-width: 450px) {
+    body {
+        margin: 0 16px;
+    }
+
+    .navbar {
+        grid-template-rows: 50 px 20 px;
+        grid-template-columns: (5 1fr);
+        grid-template-areas: 
+        "firma-logo-mobile firma-logo-mobile firma-logo-mobile firma-logo-mobile firma-logo-mobile"
+        "nav-li-mobile nav-li-mobile nav-li-mobile nav-li-mobile nav-li-mobile";
+
+    }
+
+    .main-content {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .grid-container{
+        grid-template-rows: 50 px 20 px;
+        grid-template-columns: (4 1fr);
+        grid-template-areas: 
+        "grid-item grid-item grid-item grid-item "
+
+    }
+
+    .misobras{
+        grid-template-rows: 50 px 20 px;
+        grid-template-columns: (3 1fr);
+        grid-template-areas: 
+        "imagenes-obras imagenes-obras imagenes-obras";
+        width: 165px;
+        height: 220px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+
+
