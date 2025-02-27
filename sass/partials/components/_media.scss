@@ -1,0 +1,40 @@
+@media (max-width: 450px) {
+    body {
+        margin: 0 16px;
+    }
+
+    .navbar {
+        grid-template-rows: 50 px 20 px;
+        grid-template-columns: (5 1fr);
+        grid-template-areas: 
+        "firma-logo-mobile firma-logo-mobile firma-logo-mobile firma-logo-mobile firma-logo-mobile"
+        "nav-li-mobile nav-li-mobile nav-li-mobile nav-li-mobile nav-li-mobile";
+
+    }
+
+    .main-content {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .grid-container{
+        grid-template-rows: 50 px 20 px;
+        grid-template-columns: (4 1fr);
+        grid-template-areas: 
+        "grid-item grid-item grid-item grid-item "
+
+    }
+
+    .misobras{
+        grid-template-rows: 50 px 20 px;
+        grid-template-columns: (3 1fr);
+        grid-template-areas: 
+        "imagenes-obras imagenes-obras imagenes-obras";
+        width: 165px;
+        height: 220px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}

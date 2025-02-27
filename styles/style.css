@@ -1,26 +1,25 @@
 
 /*google fonts - roboto*/
 /*font-family: "Roboto", serif;*/
+/*font-family: "Dancing Script", serif;
+/*font-family: "Playwrite IT Moderna", serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /*google fonts - italico*/
 /*font-family: "Rock Salt", serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
 
 
-.rock-salt-regular {
-    font-family: "Rock Salt", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
 
   
 body{
     margin: 0 16px;
     background-color: white;
     font-family: "Roboto", serif
+
+    
     
 }
 
@@ -39,24 +38,22 @@ a{
 }
 
 h1{
-    font-family: "Rock Salt", serif;
- 
+    font-family: "Playwrite IT Moderna", serif;
    font-size: 60px;
    text-align: center;
    margin: 50px;
    padding: 20px;
-   background-color:white;
+  
    
 
     
 }
 h2{
     color: dimgrey;
-    font-size: 34px;
+    font-size: 30px;
     text-align:right;
     font-family: "Rock Salt";
-    font-weight: 400;
-    margin: 50px;
+     margin: 30px;
    
     
     
@@ -64,6 +61,7 @@ h2{
 }
 
 h3{
+    font-family: "Playwrite IT Moderna", serif;
     margin: 50px;
    color: black;
     font-size: 54px;
@@ -80,6 +78,20 @@ h3{
 .nav-li{
     list-style: none;
 
+}
+
+.navbar{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px solid black;
+    background-color: lightgray;
+}
+
+.navbar :hover{
+    color: blue;
 }
 
 .pinceles {
@@ -117,7 +129,7 @@ h3{
 
 .manchas{
     
-    background-image: url(../imagenesproyecto.html/manchas.jpg);
+    background-image: url(../imagenesproyecto.html/manchasgrises.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -187,24 +199,8 @@ h5{
     text-align: left;
 }
 
-.navbar{
-    
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 5px solid black;
-    background-color: lightgray;
-}
 
-.navbar :hover{
-    color: blue;
-}
 
-header{
-    width: 100%;
-    background-color: white;
-}
 
 .navbar ul {
     display: flex;

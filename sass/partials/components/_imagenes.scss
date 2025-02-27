@@ -1,0 +1,80 @@
+.pinceles {
+    border: 1px solid black;
+    float: left; 
+    margin: 10px;
+    padding: 10px;
+    margin-left: 60px; 
+    width: 200px; 
+ 
+
+}
+
+.dali{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    
+}
+
+.manchas{
+    
+    background-image: url(../imagenesproyecto.html/manchasgrises.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.firma-logo{
+    margin: 8px;
+    display:inline-block black; 
+    border: 1px solid #000000;
+    border-radius: 4px;
+    width: 70px;
+    height: 30px;
+}
+
+
+.martin {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Ocupa toda la altura de la ventana */
+    margin: 100px;               /* Elimina márgenes por defecto */
+    padding: 50px;
+    border: 1px solid black; /* Añade un borde de 1px */
+    max-width: 100%;          /* Asegura que la imagen no se desborde */
+    height: auto;             /* Mantiene la proporción de la imagen */
+}
+
+.imagenes-obras{
+    
+    text-decoration: none;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.imagenes-obras img{
+    width: 300px;
+    height: 450px;
+
+}
+ 
+.imagen-contacto {
+    
+    width: 400px;
+    height: 500px;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: inline-end;
+  margin-inline-end: 30px;
+}
+
